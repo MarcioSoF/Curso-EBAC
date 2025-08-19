@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="CalculaIMC.js"></script>
+    <link rel="stylesheet" href="CalculaIMC.css">
+</head>
+<body>
+    <header><h1>Calculadora de IMC</h1>
+    <p>Calcule aqui o seu IMC, e descubra se seu peso está na faixa considerada saudável.</p>
+    <nav>
+    <ul>
+        <li><a href="#IMC">O que é o IMC</a></li>
+        <li><a href="#Calculadora">Meça já o seu IMC</a></li>
+        <li><a href="#classificacao">Classificações do IMC</a></li>
+        <li><a href="#comocalcular">Como medir o IMC</a></li>
+    </ul>
+    </nav>
+    </header>
+
+    <main>
+        <section id="IMC">
+            <h2>O QUE É O IMC?</h2>
+            <p>O IMC <b>(Índice de Massa Corporal)</b> é uma medida internacional usada para avaliar se uma pessoa está dentro do peso ideal em relação à sua altura.</p>
+            <p>É uma fórmula simples que ajuda a identificar se alguém está abaixo do peso, com peso normal, sobrepeso ou obesidade. Embora não leve em conta fatores como massa muscular ou composição corporal, o IMC é um ótimo ponto de partida para entender melhor a sua saúde.</p>
+            <p>O IMC não diferencia massa muscular de gordura, o que significa que atletas ou pessoas com alta massa muscular podem ter um IMC alto, mas não necessariamente estarem acima do peso. Além disso, o IMC não leva em conta a distribuição de gordura no corpo, sendo que a gordura abdominal (visceral) é considerada mais perigosa para a saúde do que a gordura subcutânea. </p>
+        </section>
+        <section id="Calculadora">
+
+            <h2>CALCULE AQUI O SEU IMC:</h2>
+
+            <label for="peso">Digite o seu peso (em quilogramas)</label>
+            <input type="number" id="peso">
+            
+            <label for="altura">Digite a sua altura (em metros)</label>
+            <input type="number" id="altura">
+
+            <button type="button" onclick="calculaIMC()">Calcular</button>
+
+            <p id="resultado"></p>
+
+        </section>
+
+        <section id="classificacao">
+            <h2>CLASSIFICAÇÃO DO IMC</h2>
+            <p>Veja abaixo as faixas de classificação do IMC de acordo com a Organização Mundial da Saúde (OMS):</p>
+        <ol>
+            <ul>Menor que 18,5 – Abaixo do peso</ul>
+            <ul>18,5 a 24,9 – Peso normal</ul>
+            <ul>25,0 a 29,9 – Sobrepeso</ul>
+            <ul>30,0 a 34,9 – Obesidade grau I</ul>
+            <ul>35,0 a 39,9 – Obesidade grau II</ul>
+            <ul>Acima de 40,0 – Obesidade grau III (obesidade mórbida)</ul>
+        </ol>
+            <p>
+            Essas faixas ajudam a identificar possíveis riscos à saúde e orientam na busca por qualidade de vida e bem-estar.
+            </p>
+    
+        </section>
+        <section id="comocalcular">
+            <h2>COMO CALCULAR O IMC:</h2>
+            <p>Medir seu IMC é simples! Siga os passos abaixo:</p>
+            <p>Meça sua altura com precisão, em metros (ex: 1,75).</p>
+            <p>Pese-se com uma balança confiável, em quilos (ex: 70).</p>
+            <h3>Use a fórmula:</h3>
+            <p>IMC = Peso (kg) ÷ (Altura × Altura)</p>
+            <p>Exemplo: 70 ÷ (1,75 × 1,75) = 22,86</p>
+            <p>Compare o resultado com as classificações para entender sua situação.</p>
+            <p>Pronto! Agora é só usar nossa calculadora ali em cima e descobrir onde você está!</p>
+        </section>
+    </main>
+    <footer>
+        <p>O IMC é uma estimativa geral. Para crianças, adolescentes, atletas ou idosos, pode não refletir adequadamente o estado de saúde. Consulte um especialista.</p>
+    </footer>
+</body>
+</html>

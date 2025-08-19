@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+    line-height: 1.5;
+    color: black;
+    background-color: lightblue;
+}
+
+header{
+    padding: 30px;
+    text-align: center;
+}
+header h1 {
+    font-size: 36px;
+    margin-top: 15px;
+}
+header ul li {
+    display: inline;
+    margin-right: 10px;
+}
+header ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+header ul li a:hover {
+    color: royalblue;
+    text-decoration: underline;
+}
+
+main h2 {
+    text-align: center;
+    padding: 0px;
+    font-weight: 24px;
+    margin: 40px auto;
+}
+main p {
+    text-align: justify;
+    font-weight: 18px;
+    margin: 40px auto;
+    width: 50%;
+}
+
+ol {
+  list-style-position: inside; /* Faz a numeração ficar alinhada com o texto */
+  padding-left: 0; /* Remove o recuo da lista */
+  text-align: justify; /* Centraliza o conteúdo da lista */
+  width: 50%;
+}
+
+#classificacao {
+  text-align: justify; /* Centraliza os parágrafos */
+  padding: 20px;
+  background-color: #c7e1ea; /* azul claro de fundo */
+}
+
+#classificacao ol {
+  list-style-position: inside;
+  padding-left: 0;
+  margin: 0 auto;
+}
+  
+#Calculadora {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 40px auto;
+    width: 50%;
+    text-align: center;
+}
+
+#Calculadora input[type="number"] {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+#Calculadora button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#Calculadora button:hover {
+    background-color: #0056b3;
+}
+
+main h3 
+{text-align: center;}
+
+footer{
+    text-align: justify;
+    width: 50%;
+    margin: auto;
+}
