@@ -1,0 +1,53 @@
+/* Estilos básicos */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    padding: 50px;
+}
+
+h1 {
+    color: #3e3e3e;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+input, button {
+    padding: 15px;
+    font-size: 18px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #ccc;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#tentativasRestantes {
+    font-weight: bold;
+    color: #333;
+}
+
+#dicasJogo {
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
+
+#dicasJogo {
+    color: #ff0000; /* Vermelho para mensagens de erro */
+}
+
